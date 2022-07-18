@@ -1,0 +1,21 @@
+knights_equipment = ["sword", "armour", "shield"]
+
+print (type(knights_equipment), "\n")
+
+print (len(knights_equipment), "\n")
+
+for i in reversed(knights_equipment):
+  print (i)
+
+print ("\n")
+
+print ([x for x in reversed(knights_equipment)], "\n")
+
+print (knights_equipment[1], "\n")
+
+knights_equipment.append("horse")
+knights_equipment.append("spear")
+knights_equipment.append("helmet")
+
+print (knights_equipment[:])
+print (knights_equipment[2:-2])
