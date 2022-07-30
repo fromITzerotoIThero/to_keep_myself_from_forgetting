@@ -1,3 +1,19 @@
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+b = list(a)
+b.append(a)
+b.append(a)
+
+c = []
+c.append(a)
+c.append(a)
+
+print(a[4])
+print(b[11][1])
+print(c[1][8])
+
+
+
 knights_equipment = ["sword", "armour", "shield"]
 
 print (type(knights_equipment), "\n")
@@ -19,19 +35,3 @@ knights_equipment.append("helmet")
 
 print (knights_equipment[:])
 print (knights_equipment[2:-2])
-
-
-
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-
-b = list(a)
-b.append(a)
-b.append(a)
-
-c = []
-c.append(a)
-c.append(a)
-
-print(a[4])
-print(b[11][1])
-print(c[1][8])
