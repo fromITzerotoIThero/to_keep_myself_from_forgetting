@@ -1,0 +1,7 @@
+import random
+index = 1 
+
+while index <= 10:
+  a = random.randint(1, 10)
+  print(index, a)
+  index += 1 
